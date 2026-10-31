@@ -1,35 +1,24 @@
-# Python
-__pycache__/
-*.py[cod]
-*.egg-info/
-.venv/
-venv/
-
-# Node
+# Node / 构建
 node_modules/
 dist/
+.npm-cache/
 
 # 环境与密钥
 .env
 .env.*
 !.env.example
 
-# 数据与本地产物
+# 本地数据
 *.db
 *.sqlite3
-data/uploads/
-data/outputs/
-weights/
-*.safetensors
-*.ckpt
-*.pth
+*.log
+*.tmp
+
+# 项目本地产物
+web/qa/
 
 # 编辑器 / 系统
 .vscode/
 .idea/
 .DS_Store
 Thumbs.db
-
-# 临时
-*.log
-*.tmp
